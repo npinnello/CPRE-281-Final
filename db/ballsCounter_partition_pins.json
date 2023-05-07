@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pin_name57",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name59",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name60",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name61",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name62",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name63",
+					"strict" : false
+				},
+				{
+					"name" : "ballAdder",
+					"strict" : false
+				},
+				{
+					"name" : "resetBalls",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

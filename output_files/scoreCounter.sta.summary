@@ -1,0 +1,149 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Clk'
+Slack : -0.732
+TNS   : -0.732
+
+Type  : Slow 1200mV 85C Model Setup 'jkff2:inst|2'
+Slack : -0.439
+TNS   : -0.439
+
+Type  : Slow 1200mV 85C Model Setup 'jkff2:inst1|2'
+Slack : -0.329
+TNS   : -0.329
+
+Type  : Slow 1200mV 85C Model Setup 'jkff2:inst2|2'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'jkff2:inst2|2'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'jkff2:inst|2'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'jkff2:inst1|2'
+Slack : 0.529
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Clk'
+Slack : 0.580
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -4.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'jkff2:inst1|2'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'jkff2:inst2|2'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'jkff2:inst|2'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Setup 'Clk'
+Slack : -0.543
+TNS   : -0.543
+
+Type  : Slow 1200mV 0C Model Setup 'jkff2:inst|2'
+Slack : -0.344
+TNS   : -0.344
+
+Type  : Slow 1200mV 0C Model Setup 'jkff2:inst1|2'
+Slack : -0.267
+TNS   : -0.267
+
+Type  : Slow 1200mV 0C Model Setup 'jkff2:inst2|2'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'jkff2:inst2|2'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Clk'
+Slack : 0.424
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'jkff2:inst|2'
+Slack : 0.447
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'jkff2:inst1|2'
+Slack : 0.511
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -4.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'jkff2:inst1|2'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'jkff2:inst2|2'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'jkff2:inst|2'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Fast 1200mV 0C Model Setup 'Clk'
+Slack : -0.183
+TNS   : -0.183
+
+Type  : Fast 1200mV 0C Model Setup 'jkff2:inst|2'
+Slack : 0.076
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'jkff2:inst1|2'
+Slack : 0.140
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'jkff2:inst2|2'
+Slack : 0.624
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'jkff2:inst1|2'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'jkff2:inst2|2'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'jkff2:inst|2'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Clk'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -4.170
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'jkff2:inst1|2'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'jkff2:inst2|2'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'jkff2:inst|2'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

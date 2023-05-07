@@ -1,0 +1,48 @@
+|strikeCounter
+pin_name50 <= seven_seg_decoder:inst3.a
+resetStrikes => JKFF2:inst1.CLRN
+resetStrikes => JKFF2:inst.CLRN
+strikeAdder => JKFF2:inst1.CLK
+strikeAdder => JKFF2:inst.CLK
+pin_name51 <= seven_seg_decoder:inst3.b
+pin_name52 <= seven_seg_decoder:inst3.c
+pin_name53 <= seven_seg_decoder:inst3.d
+pin_name54 <= seven_seg_decoder:inst3.e
+pin_name55 <= seven_seg_decoder:inst3.f
+pin_name56 <= seven_seg_decoder:inst3.g
+
+
+|strikeCounter|seven_seg_decoder:inst3
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|strikeCounter|JKFF2:inst1
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|strikeCounter|JKFF2:inst
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+

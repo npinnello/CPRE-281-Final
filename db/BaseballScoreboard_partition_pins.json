@@ -1,0 +1,305 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pin_name1",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name2",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name3",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name4",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name5",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name6",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name7",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name8",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name9",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name10",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name11",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name12",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name13",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name14",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name15",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name16",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name17",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name18",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name19",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name20",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name21",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name22",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name23",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name24",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name25",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name26",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name27",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name28",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name29",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name30",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name31",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name32",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name33",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name34",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name35",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name37",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name38",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name50",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name52",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name53",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name54",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name55",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name56",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name57",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name59",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name60",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name61",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name62",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name63",
+					"strict" : false
+				},
+				{
+					"name" : "oneOut",
+					"strict" : false
+				},
+				{
+					"name" : "twoOuts",
+					"strict" : false
+				},
+				{
+					"name" : "s1",
+					"strict" : false
+				},
+				{
+					"name" : "c3",
+					"strict" : false
+				},
+				{
+					"name" : "c1",
+					"strict" : false
+				},
+				{
+					"name" : "s2",
+					"strict" : false
+				},
+				{
+					"name" : "c2",
+					"strict" : false
+				},
+				{
+					"name" : "x0",
+					"strict" : false
+				},
+				{
+					"name" : "x1",
+					"strict" : false
+				},
+				{
+					"name" : "x2",
+					"strict" : false
+				},
+				{
+					"name" : "x3",
+					"strict" : false
+				},
+				{
+					"name" : "orderSwitch",
+					"strict" : false
+				},
+				{
+					"name" : "Away10s",
+					"strict" : false
+				},
+				{
+					"name" : "CLRN",
+					"strict" : false
+				},
+				{
+					"name" : "Away1s",
+					"strict" : false
+				},
+				{
+					"name" : "CLRN2",
+					"strict" : false
+				},
+				{
+					"name" : "Home10s",
+					"strict" : false
+				},
+				{
+					"name" : "CLRN3",
+					"strict" : false
+				},
+				{
+					"name" : "Home1s",
+					"strict" : false
+				},
+				{
+					"name" : "CLRN4",
+					"strict" : false
+				},
+				{
+					"name" : "strikeAdder",
+					"strict" : false
+				},
+				{
+					"name" : "resetStrikes",
+					"strict" : false
+				},
+				{
+					"name" : "ballAdder",
+					"strict" : false
+				},
+				{
+					"name" : "resetBalls",
+					"strict" : false
+				},
+				{
+					"name" : "outAdder",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

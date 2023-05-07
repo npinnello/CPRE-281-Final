@@ -1,0 +1,27 @@
+|outLEDs
+oneOut <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+outAdder => JKFF2:inst1.CLK
+outAdder => JKFF2:inst.CLK
+twoOuts <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|outLEDs|JKFF2:inst1
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|outLEDs|JKFF2:inst
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+

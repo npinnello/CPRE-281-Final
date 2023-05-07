@@ -1,0 +1,327 @@
+|counterDisplay
+pin_name1 <= scoreCounterZerotoNine:inst.pin_name1
+Away10s => scoreCounterZerotoNine:inst.Clk
+CLRN => scoreCounterZerotoNine:inst.CLRN
+pin_name2 <= scoreCounterZerotoNine:inst.pin_name2
+pin_name3 <= scoreCounterZerotoNine:inst.pin_name3
+pin_name4 <= scoreCounterZerotoNine:inst.pin_name4
+pin_name5 <= scoreCounterZerotoNine:inst.pin_name5
+pin_name6 <= scoreCounterZerotoNine:inst.pin_name6
+pin_name7 <= scoreCounterZerotoNine:inst.pin_name7
+pin_name8 <= scoreCounterZerotoNine:inst1.pin_name1
+Away1s => scoreCounterZerotoNine:inst1.Clk
+CLRN2 => scoreCounterZerotoNine:inst1.CLRN
+pin_name9 <= scoreCounterZerotoNine:inst1.pin_name2
+pin_name10 <= scoreCounterZerotoNine:inst1.pin_name3
+pin_name11 <= scoreCounterZerotoNine:inst1.pin_name4
+pin_name12 <= scoreCounterZerotoNine:inst1.pin_name5
+pin_name13 <= scoreCounterZerotoNine:inst1.pin_name6
+pin_name14 <= scoreCounterZerotoNine:inst1.pin_name7
+pin_name15 <= scoreCounterZerotoNine:inst2.pin_name1
+Home10s => scoreCounterZerotoNine:inst2.Clk
+CLRN3 => scoreCounterZerotoNine:inst2.CLRN
+pin_name16 <= scoreCounterZerotoNine:inst2.pin_name2
+pin_name17 <= scoreCounterZerotoNine:inst2.pin_name3
+pin_name18 <= scoreCounterZerotoNine:inst2.pin_name4
+pin_name19 <= scoreCounterZerotoNine:inst2.pin_name5
+pin_name20 <= scoreCounterZerotoNine:inst2.pin_name6
+pin_name21 <= scoreCounterZerotoNine:inst2.pin_name7
+pin_name22 <= scoreCounterZerotoNine:inst3.pin_name1
+Home1s => scoreCounterZerotoNine:inst3.Clk
+CLRN4 => scoreCounterZerotoNine:inst3.CLRN
+pin_name23 <= scoreCounterZerotoNine:inst3.pin_name2
+pin_name24 <= scoreCounterZerotoNine:inst3.pin_name3
+pin_name25 <= scoreCounterZerotoNine:inst3.pin_name4
+pin_name26 <= scoreCounterZerotoNine:inst3.pin_name5
+pin_name27 <= scoreCounterZerotoNine:inst3.pin_name6
+pin_name28 <= scoreCounterZerotoNine:inst3.pin_name7
+
+
+|counterDisplay|scoreCounterZerotoNine:inst
+pin_name1 <= seven_seg_decoder:inst45.a
+CLRN => JKFF2:inst.CLRN
+CLRN => JKFF2:inst3.CLRN
+CLRN => JKFF2:inst1.CLRN
+CLRN => JKFF2:inst2.CLRN
+Clk => JKFF2:inst.CLK
+Clk => JKFF2:inst3.CLK
+Clk => JKFF2:inst1.CLK
+Clk => JKFF2:inst2.CLK
+pin_name2 <= seven_seg_decoder:inst45.b
+pin_name3 <= seven_seg_decoder:inst45.c
+pin_name4 <= seven_seg_decoder:inst45.d
+pin_name5 <= seven_seg_decoder:inst45.e
+pin_name6 <= seven_seg_decoder:inst45.f
+pin_name7 <= seven_seg_decoder:inst45.g
+
+
+|counterDisplay|scoreCounterZerotoNine:inst|seven_seg_decoder:inst45
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counterDisplay|scoreCounterZerotoNine:inst|JKFF2:inst3
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counterDisplay|scoreCounterZerotoNine:inst|JKFF2:inst
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counterDisplay|scoreCounterZerotoNine:inst|JKFF2:inst1
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counterDisplay|scoreCounterZerotoNine:inst|JKFF2:inst2
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counterDisplay|scoreCounterZerotoNine:inst1
+pin_name1 <= seven_seg_decoder:inst45.a
+CLRN => JKFF2:inst.CLRN
+CLRN => JKFF2:inst3.CLRN
+CLRN => JKFF2:inst1.CLRN
+CLRN => JKFF2:inst2.CLRN
+Clk => JKFF2:inst.CLK
+Clk => JKFF2:inst3.CLK
+Clk => JKFF2:inst1.CLK
+Clk => JKFF2:inst2.CLK
+pin_name2 <= seven_seg_decoder:inst45.b
+pin_name3 <= seven_seg_decoder:inst45.c
+pin_name4 <= seven_seg_decoder:inst45.d
+pin_name5 <= seven_seg_decoder:inst45.e
+pin_name6 <= seven_seg_decoder:inst45.f
+pin_name7 <= seven_seg_decoder:inst45.g
+
+
+|counterDisplay|scoreCounterZerotoNine:inst1|seven_seg_decoder:inst45
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counterDisplay|scoreCounterZerotoNine:inst1|JKFF2:inst3
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counterDisplay|scoreCounterZerotoNine:inst1|JKFF2:inst
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counterDisplay|scoreCounterZerotoNine:inst1|JKFF2:inst1
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counterDisplay|scoreCounterZerotoNine:inst1|JKFF2:inst2
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counterDisplay|scoreCounterZerotoNine:inst2
+pin_name1 <= seven_seg_decoder:inst45.a
+CLRN => JKFF2:inst.CLRN
+CLRN => JKFF2:inst3.CLRN
+CLRN => JKFF2:inst1.CLRN
+CLRN => JKFF2:inst2.CLRN
+Clk => JKFF2:inst.CLK
+Clk => JKFF2:inst3.CLK
+Clk => JKFF2:inst1.CLK
+Clk => JKFF2:inst2.CLK
+pin_name2 <= seven_seg_decoder:inst45.b
+pin_name3 <= seven_seg_decoder:inst45.c
+pin_name4 <= seven_seg_decoder:inst45.d
+pin_name5 <= seven_seg_decoder:inst45.e
+pin_name6 <= seven_seg_decoder:inst45.f
+pin_name7 <= seven_seg_decoder:inst45.g
+
+
+|counterDisplay|scoreCounterZerotoNine:inst2|seven_seg_decoder:inst45
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counterDisplay|scoreCounterZerotoNine:inst2|JKFF2:inst3
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counterDisplay|scoreCounterZerotoNine:inst2|JKFF2:inst
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counterDisplay|scoreCounterZerotoNine:inst2|JKFF2:inst1
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counterDisplay|scoreCounterZerotoNine:inst2|JKFF2:inst2
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counterDisplay|scoreCounterZerotoNine:inst3
+pin_name1 <= seven_seg_decoder:inst45.a
+CLRN => JKFF2:inst.CLRN
+CLRN => JKFF2:inst3.CLRN
+CLRN => JKFF2:inst1.CLRN
+CLRN => JKFF2:inst2.CLRN
+Clk => JKFF2:inst.CLK
+Clk => JKFF2:inst3.CLK
+Clk => JKFF2:inst1.CLK
+Clk => JKFF2:inst2.CLK
+pin_name2 <= seven_seg_decoder:inst45.b
+pin_name3 <= seven_seg_decoder:inst45.c
+pin_name4 <= seven_seg_decoder:inst45.d
+pin_name5 <= seven_seg_decoder:inst45.e
+pin_name6 <= seven_seg_decoder:inst45.f
+pin_name7 <= seven_seg_decoder:inst45.g
+
+
+|counterDisplay|scoreCounterZerotoNine:inst3|seven_seg_decoder:inst45
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counterDisplay|scoreCounterZerotoNine:inst3|JKFF2:inst3
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counterDisplay|scoreCounterZerotoNine:inst3|JKFF2:inst
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counterDisplay|scoreCounterZerotoNine:inst3|JKFF2:inst1
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counterDisplay|scoreCounterZerotoNine:inst3|JKFF2:inst2
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+

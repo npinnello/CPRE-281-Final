@@ -1,0 +1,629 @@
+|BaseballScoreboard
+pin_name1 <= counterDisplay:inst.pin_name1
+Away10s => counterDisplay:inst.Away10s
+CLRN => counterDisplay:inst.CLRN
+Away1s => counterDisplay:inst.Away1s
+CLRN2 => counterDisplay:inst.CLRN2
+Home10s => counterDisplay:inst.Home10s
+CLRN3 => counterDisplay:inst.CLRN3
+Home1s => counterDisplay:inst.Home1s
+CLRN4 => counterDisplay:inst.CLRN4
+pin_name2 <= counterDisplay:inst.pin_name2
+pin_name3 <= counterDisplay:inst.pin_name3
+pin_name4 <= counterDisplay:inst.pin_name4
+pin_name5 <= counterDisplay:inst.pin_name5
+pin_name6 <= counterDisplay:inst.pin_name6
+pin_name7 <= counterDisplay:inst.pin_name7
+pin_name8 <= counterDisplay:inst.pin_name8
+pin_name9 <= counterDisplay:inst.pin_name9
+pin_name10 <= counterDisplay:inst.pin_name10
+pin_name11 <= counterDisplay:inst.pin_name11
+pin_name12 <= counterDisplay:inst.pin_name12
+pin_name13 <= counterDisplay:inst.pin_name13
+pin_name14 <= counterDisplay:inst.pin_name14
+pin_name15 <= counterDisplay:inst.pin_name15
+pin_name16 <= counterDisplay:inst.pin_name16
+pin_name17 <= counterDisplay:inst.pin_name17
+pin_name18 <= counterDisplay:inst.pin_name18
+pin_name19 <= counterDisplay:inst.pin_name19
+pin_name20 <= counterDisplay:inst.pin_name20
+pin_name21 <= counterDisplay:inst.pin_name21
+pin_name22 <= counterDisplay:inst.pin_name22
+pin_name23 <= counterDisplay:inst.pin_name23
+pin_name24 <= counterDisplay:inst.pin_name24
+pin_name25 <= counterDisplay:inst.pin_name25
+pin_name26 <= counterDisplay:inst.pin_name26
+pin_name27 <= counterDisplay:inst.pin_name27
+pin_name28 <= counterDisplay:inst.pin_name28
+pin_name29 <= inningRegister:inst9.pin_name29
+x3 => inningRegister:inst9.x3
+x2 => inningRegister:inst9.x2
+x1 => inningRegister:inst9.x1
+x0 => inningRegister:inst9.x0
+c1 => inningRegister:inst9.c1
+c2 => inningRegister:inst9.c2
+c3 => inningRegister:inst9.c3
+orderSwitch => inningRegister:inst9.orderSwitch
+s1 => inningRegister:inst9.s1
+s2 => inningRegister:inst9.s2
+pin_name30 <= inningRegister:inst9.pin_name30
+pin_name31 <= inningRegister:inst9.pin_name31
+pin_name32 <= inningRegister:inst9.pin_name32
+pin_name33 <= inningRegister:inst9.pin_name33
+pin_name34 <= inningRegister:inst9.pin_name34
+pin_name35 <= inningRegister:inst9.pin_name35
+pin_name36 <= inningRegister:inst9.pin_name36
+pin_name37 <= inningRegister:inst9.pin_name37
+pin_name38 <= inningRegister:inst9.pin_name38
+pin_name39 <= inningRegister:inst9.pin_name39
+pin_name40 <= inningRegister:inst9.pin_name40
+pin_name41 <= inningRegister:inst9.pin_name41
+pin_name42 <= inningRegister:inst9.pin_name42
+pin_name50 <= strikeCounter:inst1.pin_name50
+strikeAdder => strikeCounter:inst1.strikeAdder
+resetStrikes => strikeCounter:inst1.resetStrikes
+pin_name51 <= strikeCounter:inst1.pin_name51
+pin_name52 <= strikeCounter:inst1.pin_name52
+pin_name53 <= strikeCounter:inst1.pin_name53
+pin_name54 <= strikeCounter:inst1.pin_name54
+pin_name55 <= strikeCounter:inst1.pin_name55
+pin_name56 <= strikeCounter:inst1.pin_name56
+pin_name57 <= ballsCounter:inst2.pin_name57
+resetBalls => ballsCounter:inst2.resetBalls
+ballAdder => ballsCounter:inst2.ballAdder
+pin_name58 <= ballsCounter:inst2.pin_name58
+pin_name59 <= ballsCounter:inst2.pin_name59
+pin_name60 <= ballsCounter:inst2.pin_name60
+pin_name61 <= ballsCounter:inst2.pin_name61
+pin_name62 <= ballsCounter:inst2.pin_name62
+pin_name63 <= ballsCounter:inst2.pin_name63
+oneOut <= outLEDs:inst3.oneOut
+outAdder => outLEDs:inst3.outAdder
+twoOuts <= outLEDs:inst3.twoOuts
+
+
+|BaseballScoreboard|counterDisplay:inst
+pin_name1 <= scoreCounterZerotoNine:inst.pin_name1
+Away10s => scoreCounterZerotoNine:inst.Clk
+CLRN => scoreCounterZerotoNine:inst.CLRN
+pin_name2 <= scoreCounterZerotoNine:inst.pin_name2
+pin_name3 <= scoreCounterZerotoNine:inst.pin_name3
+pin_name4 <= scoreCounterZerotoNine:inst.pin_name4
+pin_name5 <= scoreCounterZerotoNine:inst.pin_name5
+pin_name6 <= scoreCounterZerotoNine:inst.pin_name6
+pin_name7 <= scoreCounterZerotoNine:inst.pin_name7
+pin_name8 <= scoreCounterZerotoNine:inst1.pin_name1
+Away1s => scoreCounterZerotoNine:inst1.Clk
+CLRN2 => scoreCounterZerotoNine:inst1.CLRN
+pin_name9 <= scoreCounterZerotoNine:inst1.pin_name2
+pin_name10 <= scoreCounterZerotoNine:inst1.pin_name3
+pin_name11 <= scoreCounterZerotoNine:inst1.pin_name4
+pin_name12 <= scoreCounterZerotoNine:inst1.pin_name5
+pin_name13 <= scoreCounterZerotoNine:inst1.pin_name6
+pin_name14 <= scoreCounterZerotoNine:inst1.pin_name7
+pin_name15 <= scoreCounterZerotoNine:inst2.pin_name1
+Home10s => scoreCounterZerotoNine:inst2.Clk
+CLRN3 => scoreCounterZerotoNine:inst2.CLRN
+pin_name16 <= scoreCounterZerotoNine:inst2.pin_name2
+pin_name17 <= scoreCounterZerotoNine:inst2.pin_name3
+pin_name18 <= scoreCounterZerotoNine:inst2.pin_name4
+pin_name19 <= scoreCounterZerotoNine:inst2.pin_name5
+pin_name20 <= scoreCounterZerotoNine:inst2.pin_name6
+pin_name21 <= scoreCounterZerotoNine:inst2.pin_name7
+pin_name22 <= scoreCounterZerotoNine:inst3.pin_name1
+Home1s => scoreCounterZerotoNine:inst3.Clk
+CLRN4 => scoreCounterZerotoNine:inst3.CLRN
+pin_name23 <= scoreCounterZerotoNine:inst3.pin_name2
+pin_name24 <= scoreCounterZerotoNine:inst3.pin_name3
+pin_name25 <= scoreCounterZerotoNine:inst3.pin_name4
+pin_name26 <= scoreCounterZerotoNine:inst3.pin_name5
+pin_name27 <= scoreCounterZerotoNine:inst3.pin_name6
+pin_name28 <= scoreCounterZerotoNine:inst3.pin_name7
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst
+pin_name1 <= seven_seg_decoder:inst45.a
+CLRN => JKFF2:inst.CLRN
+CLRN => JKFF2:inst3.CLRN
+CLRN => JKFF2:inst1.CLRN
+CLRN => JKFF2:inst2.CLRN
+Clk => JKFF2:inst.CLK
+Clk => JKFF2:inst3.CLK
+Clk => JKFF2:inst1.CLK
+Clk => JKFF2:inst2.CLK
+pin_name2 <= seven_seg_decoder:inst45.b
+pin_name3 <= seven_seg_decoder:inst45.c
+pin_name4 <= seven_seg_decoder:inst45.d
+pin_name5 <= seven_seg_decoder:inst45.e
+pin_name6 <= seven_seg_decoder:inst45.f
+pin_name7 <= seven_seg_decoder:inst45.g
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst|seven_seg_decoder:inst45
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst|JKFF2:inst3
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst|JKFF2:inst
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst|JKFF2:inst1
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst|JKFF2:inst2
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst1
+pin_name1 <= seven_seg_decoder:inst45.a
+CLRN => JKFF2:inst.CLRN
+CLRN => JKFF2:inst3.CLRN
+CLRN => JKFF2:inst1.CLRN
+CLRN => JKFF2:inst2.CLRN
+Clk => JKFF2:inst.CLK
+Clk => JKFF2:inst3.CLK
+Clk => JKFF2:inst1.CLK
+Clk => JKFF2:inst2.CLK
+pin_name2 <= seven_seg_decoder:inst45.b
+pin_name3 <= seven_seg_decoder:inst45.c
+pin_name4 <= seven_seg_decoder:inst45.d
+pin_name5 <= seven_seg_decoder:inst45.e
+pin_name6 <= seven_seg_decoder:inst45.f
+pin_name7 <= seven_seg_decoder:inst45.g
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst1|seven_seg_decoder:inst45
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst1|JKFF2:inst3
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst1|JKFF2:inst
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst1|JKFF2:inst1
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst1|JKFF2:inst2
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst2
+pin_name1 <= seven_seg_decoder:inst45.a
+CLRN => JKFF2:inst.CLRN
+CLRN => JKFF2:inst3.CLRN
+CLRN => JKFF2:inst1.CLRN
+CLRN => JKFF2:inst2.CLRN
+Clk => JKFF2:inst.CLK
+Clk => JKFF2:inst3.CLK
+Clk => JKFF2:inst1.CLK
+Clk => JKFF2:inst2.CLK
+pin_name2 <= seven_seg_decoder:inst45.b
+pin_name3 <= seven_seg_decoder:inst45.c
+pin_name4 <= seven_seg_decoder:inst45.d
+pin_name5 <= seven_seg_decoder:inst45.e
+pin_name6 <= seven_seg_decoder:inst45.f
+pin_name7 <= seven_seg_decoder:inst45.g
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst2|seven_seg_decoder:inst45
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst2|JKFF2:inst3
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst2|JKFF2:inst
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst2|JKFF2:inst1
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst2|JKFF2:inst2
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst3
+pin_name1 <= seven_seg_decoder:inst45.a
+CLRN => JKFF2:inst.CLRN
+CLRN => JKFF2:inst3.CLRN
+CLRN => JKFF2:inst1.CLRN
+CLRN => JKFF2:inst2.CLRN
+Clk => JKFF2:inst.CLK
+Clk => JKFF2:inst3.CLK
+Clk => JKFF2:inst1.CLK
+Clk => JKFF2:inst2.CLK
+pin_name2 <= seven_seg_decoder:inst45.b
+pin_name3 <= seven_seg_decoder:inst45.c
+pin_name4 <= seven_seg_decoder:inst45.d
+pin_name5 <= seven_seg_decoder:inst45.e
+pin_name6 <= seven_seg_decoder:inst45.f
+pin_name7 <= seven_seg_decoder:inst45.g
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst3|seven_seg_decoder:inst45
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst3|JKFF2:inst3
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst3|JKFF2:inst
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst3|JKFF2:inst1
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|counterDisplay:inst|scoreCounterZerotoNine:inst3|JKFF2:inst2
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|inningRegister:inst9
+pin_name29 <= seven_seg_decoder:inst4.a
+x3 => mux4to1:inst45.i0
+x2 => mux4to1:inst45.i1
+x2 => mux4to1:inst1.i0
+x1 => mux4to1:inst45.i2
+x1 => mux4to1:inst1.i1
+x1 => mux4to1:inst2.i0
+x0 => mux4to1:inst45.i3
+x0 => mux4to1:inst1.i2
+x0 => mux4to1:inst2.i1
+x0 => mux4to1:inst3.i0
+s2 => mux4to1:inst45.s2
+s2 => mux4to1:inst1.s2
+s2 => mux4to1:inst2.s2
+s2 => mux4to1:inst3.s2
+s1 => mux4to1:inst45.s1
+s1 => mux4to1:inst1.s1
+s1 => mux4to1:inst2.s1
+s1 => mux4to1:inst3.s1
+c1 => mux4to1:inst1.i3
+c1 => mux4to1:inst2.i2
+c1 => mux4to1:inst3.i1
+c2 => mux4to1:inst2.i3
+c2 => mux4to1:inst3.i2
+c3 => mux4to1:inst3.i3
+pin_name30 <= seven_seg_decoder:inst4.b
+pin_name31 <= seven_seg_decoder:inst4.c
+pin_name32 <= seven_seg_decoder:inst4.d
+pin_name33 <= seven_seg_decoder:inst4.e
+pin_name34 <= seven_seg_decoder:inst4.f
+pin_name35 <= seven_seg_decoder:inst4.g
+pin_name36 <= seven_seg_decoder:inst5.a
+orderSwitch => seven_seg_decoder:inst5.x
+orderSwitch => seven_seg_decoder:inst5.z
+pin_name37 <= seven_seg_decoder:inst5.b
+pin_name38 <= seven_seg_decoder:inst5.c
+pin_name39 <= seven_seg_decoder:inst5.d
+pin_name40 <= seven_seg_decoder:inst5.e
+pin_name41 <= seven_seg_decoder:inst5.f
+pin_name42 <= seven_seg_decoder:inst5.g
+
+
+|BaseballScoreboard|inningRegister:inst9|seven_seg_decoder:inst4
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|inningRegister:inst9|mux4to1:inst45
+i0 => f.DATAA
+i1 => f.DATAB
+i2 => f.DATAA
+i3 => f.DATAB
+s2 => f.OUTPUTSELECT
+s1 => f.OUTPUTSELECT
+s1 => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|inningRegister:inst9|mux4to1:inst1
+i0 => f.DATAA
+i1 => f.DATAB
+i2 => f.DATAA
+i3 => f.DATAB
+s2 => f.OUTPUTSELECT
+s1 => f.OUTPUTSELECT
+s1 => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|inningRegister:inst9|mux4to1:inst2
+i0 => f.DATAA
+i1 => f.DATAB
+i2 => f.DATAA
+i3 => f.DATAB
+s2 => f.OUTPUTSELECT
+s1 => f.OUTPUTSELECT
+s1 => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|inningRegister:inst9|mux4to1:inst3
+i0 => f.DATAA
+i1 => f.DATAB
+i2 => f.DATAA
+i3 => f.DATAB
+s2 => f.OUTPUTSELECT
+s1 => f.OUTPUTSELECT
+s1 => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|inningRegister:inst9|seven_seg_decoder:inst5
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|strikeCounter:inst1
+pin_name50 <= seven_seg_decoder:inst3.a
+resetStrikes => JKFF2:inst1.CLRN
+resetStrikes => JKFF2:inst.CLRN
+strikeAdder => JKFF2:inst1.CLK
+strikeAdder => JKFF2:inst.CLK
+pin_name51 <= seven_seg_decoder:inst3.b
+pin_name52 <= seven_seg_decoder:inst3.c
+pin_name53 <= seven_seg_decoder:inst3.d
+pin_name54 <= seven_seg_decoder:inst3.e
+pin_name55 <= seven_seg_decoder:inst3.f
+pin_name56 <= seven_seg_decoder:inst3.g
+
+
+|BaseballScoreboard|strikeCounter:inst1|seven_seg_decoder:inst3
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|strikeCounter:inst1|JKFF2:inst1
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|strikeCounter:inst1|JKFF2:inst
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|ballsCounter:inst2
+pin_name57 <= seven_seg_decoder:inst.a
+resetBalls => inst2.ACLR
+resetBalls => inst1.ACLR
+ballAdder => inst1.CLK
+ballAdder => inst2.CLK
+pin_name58 <= seven_seg_decoder:inst.b
+pin_name59 <= seven_seg_decoder:inst.c
+pin_name60 <= seven_seg_decoder:inst.d
+pin_name61 <= seven_seg_decoder:inst.e
+pin_name62 <= seven_seg_decoder:inst.f
+pin_name63 <= seven_seg_decoder:inst.g
+
+
+|BaseballScoreboard|ballsCounter:inst2|seven_seg_decoder:inst
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|outLEDs:inst3
+oneOut <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+outAdder => JKFF2:inst1.CLK
+outAdder => JKFF2:inst.CLK
+twoOuts <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|outLEDs:inst3|JKFF2:inst1
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BaseballScoreboard|outLEDs:inst3|JKFF2:inst
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+

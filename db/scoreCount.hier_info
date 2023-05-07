@@ -1,0 +1,34 @@
+|lab10step2a
+pin_name1 <= seven_seg_decoder:inst11.a
+CLRN => inst3.ACLR
+CLRN => inst.ACLR
+CLRN => inst1.ACLR
+CLRN => inst2.ACLR
+Clock => inst3.CLK
+Clock => inst.CLK
+Clock => inst1.CLK
+Clock => inst2.CLK
+Enable => inst4.IN1
+Enable => inst10.IN1
+pin_name2 <= seven_seg_decoder:inst11.b
+pin_name3 <= seven_seg_decoder:inst11.c
+pin_name4 <= seven_seg_decoder:inst11.d
+pin_name5 <= seven_seg_decoder:inst11.e
+pin_name6 <= seven_seg_decoder:inst11.f
+pin_name7 <= seven_seg_decoder:inst11.g
+
+
+|lab10step2a|seven_seg_decoder:inst11
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+

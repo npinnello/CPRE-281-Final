@@ -1,0 +1,28 @@
+|ballsCounter
+pin_name57 <= seven_seg_decoder:inst.a
+resetBalls => inst2.ACLR
+resetBalls => inst1.ACLR
+ballAdder => inst1.CLK
+ballAdder => inst2.CLK
+pin_name58 <= seven_seg_decoder:inst.b
+pin_name59 <= seven_seg_decoder:inst.c
+pin_name60 <= seven_seg_decoder:inst.d
+pin_name61 <= seven_seg_decoder:inst.e
+pin_name62 <= seven_seg_decoder:inst.f
+pin_name63 <= seven_seg_decoder:inst.g
+
+
+|ballsCounter|seven_seg_decoder:inst
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+

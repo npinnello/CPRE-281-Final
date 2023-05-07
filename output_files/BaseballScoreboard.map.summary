@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Dec  6 17:17:36 2022
+Quartus Prime Version : 21.1.1 Build 850 06/23/2022 SJ Standard Edition
+Revision Name : BaseballScoreboard
+Top-level Entity Name : BaseballScoreboard
+Family : Cyclone IV E
+Total logic elements : 73
+    Total combinational functions : 73
+    Dedicated logic registers : 22
+Total registers : 22
+Total pins : 81
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
